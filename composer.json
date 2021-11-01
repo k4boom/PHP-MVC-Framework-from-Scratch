@@ -1,0 +1,15 @@
+{
+    "name": "mfzen/phpmvcframework",
+    "authors": [
+        {
+            "name": "k4boom",
+            "email": "mfzenbilci@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "app\\":"./"
+        }
+    },
+    "require": {}
+}
