@@ -9,6 +9,7 @@ class Application {
     public Router $router;
     public Response $response;
     public static Application  $app;
+    public Controller $controller;
 
     public function __construct($root) {
 
@@ -24,8 +25,13 @@ class Application {
         echo $this->router->resolve();
     }
 
+    public function getController(){
+        return $this->controller;    
+    }
 
-
-
+    public function setController($controller){
+            $this->controller = $controller;    
+        }
+        
 
 }
